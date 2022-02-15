@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.MainActivity"
+    android:background="@drawable/hojas">
+
+
+    <Button
+        android:id="@+id/btnDonRe"
+        android:layout_width="155dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/btnAyuda"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/estilo_botones"
+        android:onClick="recibir"
+        android:text="Recibir"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnDonRe2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/estilo_botones"
+        android:onClick="DonarRecibir"
+        android:text="Donar y recibir"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnDonar"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:background="@drawable/estilo_botones"
+        android:onClick="DonarPET"
+        android:text="Donar"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/estilo_botones"
+        android:onClick="Envio"
+        android:text="Administrador"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnAyuda"
+        android:layout_width="116dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/estilo_botones"
+        android:onClick="ayuda"
+        android:text="Ayuda"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnEncuesta"
+        android:layout_width="153dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btnAyuda"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/estilo_botones"
+        android:onClick="Encuesta"
+        android:text="Encuesta"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+</RelativeLayout>

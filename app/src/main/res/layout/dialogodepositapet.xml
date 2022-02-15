@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Deposita tu botella de PET, por favor, cada botella cuenta, haz la diferencia."
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="337dp"
+        android:layout_height="154dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        app:srcCompat="@drawable/siparaagua" />
+
+</RelativeLayout>

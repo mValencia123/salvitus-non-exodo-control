@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Control</string>
+    <string name="Ayuda1">El boton "Donar y recibir" sirve para obtener agua, depositando PET antes.</string>
+    <string name="Ayuda2">El boton "Donar" sirve para solamente donar PET, en dado caso que no queramos recibir agua, solo donar PET.</string>
+    <string name="Ayuda3">El boton "Encuesta" nos despliega una pequeña serie se preguntas sobre la satisfacción del usuario respecto al sistema.
+    </string>
+    <string name="Ayuda4">El boton "Recibir" sirve para recibir agua sin donar PET en el momento, antes de depositar el PET, debes ingresar tu registro de alumno.</string>
+    <string name="SinSeñal">Lo sentimos, el dispensador no esta en servicio.</string>
+    <string name="Admin">El boton "Administrador" es solo para los administradores, cuando se da click en el se deben ingresar los datos del administrador.
+    </string>
+    <string name="Envio">¿Estas seguro que quieres enviar los datos?</string>
+    <string name="depositaAyuda">Tienes que depositar la botella de PET en el orificio, en caso de depositar algo que no sea PET este sera rechazado y devuelto.</string>
+    <string name="botellaAyuda">Debes ingresar botellas de PET de entre 12 cm y 20 cm, lo que corresponde a botellas de entre 355 ml y 1 lt.</string>
+</resources>
